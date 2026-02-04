@@ -5,7 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Auth Page*/
 body {
   min-height: 100vh;
   background: radial-gradient(circle at top, #6a00ff, #000000 60%);
@@ -80,23 +79,18 @@ body {
   text-decoration: none;
 }
 
-/*  */
-
-/* ===== FIX INPUT COLOR IN ALL STATES ===== */
 .card input {
   background: #1c1c1c !important;
   color: white !important;
   border: none;
 }
 
-/* On focus */
 .card input:focus {
   background: #1c1c1c !important;
   color: white !important;
   outline: none;
 }
 
-/* Chrome autofill fix */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
